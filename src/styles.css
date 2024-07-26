@@ -36,3 +36,22 @@
     height: auto;
     border-radius: 4px;
 }
+.cocktail-list, .search-results, .favorites-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cocktail-card, .search-result, .favorite-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.cocktail-card img, .search-result img, .favorite-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
