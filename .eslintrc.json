@@ -1,9 +1,6 @@
 {
-  "extends": ["next", "plugin:import/errors", "plugin:import/warnings"],
-  "plugins": ["import"],
+  "extends": "next/core-web-vitals",
   "rules": {
-    "import/no-unresolved": "error",
-    "import/no-absolute-path": "error",
-    "import/no-relative-parent-imports": "off"
+    // Add or modify ESLint rules as needed
   }
 }
